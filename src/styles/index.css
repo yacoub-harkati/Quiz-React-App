@@ -261,10 +261,10 @@ button {
         margin: 5px;
     }
 
-    li:last-child {
+    body, li:last-child {
         margin-right: 5px;
     }
-    
+
     .title-welcome, .quiz-description{
         text-align: center;
     }
