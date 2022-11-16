@@ -124,7 +124,7 @@ button {
 /* styling Strivia Part  */
 .question--container {
     margin: 15px;
-    width: 400px;
+    width: 500px;
 }
 
 .question--container h3 {
@@ -135,7 +135,7 @@ button {
 
 .question--container ul {
     display: flex;
-    gap: 1rem;
+    gap: 20px;
     list-style: none;
     padding: 0;
 }
@@ -144,7 +144,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 10.2px;
+    font-size: 13px;
     text-align: center;
     padding: 0px 5px;
     border: 1px solid #4D5B9E;
@@ -236,6 +236,7 @@ button {
 @media (max-width: 600px){
     body {
         display: flex;
+        text-align: center;
         justify-content: center;
         align-items: center;
         height: 100vh;
@@ -243,8 +244,32 @@ button {
     }
 
     .main--container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
         width: 100vw;
         height: 100vh;
         border-radius: 0;
+    }
+
+    .trivia--container {
+        padding: 5px;
+    }
+
+    .question--container{
+        margin: 5px;
+    }
+
+    li:last-child {
+        margin-right: 5px;
+    }
+    
+    .title-welcome, .quiz-description{
+        text-align: center;
+    }
+
+    .question--container {
+        width: 100%;
     }
 }
